@@ -1,0 +1,162 @@
+h1 {
+    background-color: #FFA500;
+    font-family: "obviously-variable", sans-serif;
+    font-variation-settings: "wght" 800, "wdth" 130, "ital" 0;
+    font-style: normal;
+    font-size: 70px;
+    color: #00008B;
+    text-align: center;
+    padding: 100px;
+}
+
+img {
+    max-width: 100%;
+    width: 20em;
+    height: 13em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for the museum container divs */
+.MET {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: "gabriella", sans-serif;
+    color: #00008B;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+/* Remove the underline from the link */
+.MET a {
+    text-decoration: none;
+    color: #00008B;
+}
+
+/* Change the color of the link when hovering */
+.MET a:hover {
+    color: #E70059;
+}
+
+/* Style for the museum images and their padding boxes */
+.MET {
+    max-width: 100%;
+    padding: 15px;
+    background-color: orange;
+}
+
+.TheMuseumofModernArt {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: "gabriella", sans-serif;
+    color: #00008B;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+/* Remove the underline from the link */
+.TheMuseumofModernArt a {
+    text-decoration: none;
+    color: #00008B;
+}
+
+/* Change the color of the link when hovering */
+.TheMuseumofModernArt a:hover {
+    color: #E70059;
+}
+
+/* Style for the museum images and their padding boxes */
+.TheMuseumofModernArt {
+    max-width: 100%;
+    padding: 15px;
+    background-color: orange;
+}
+
+.SolomonRGuggenheimMuseum {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: "gabriella", sans-serif;
+    color: #00008B;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+/* Remove the underline from the link */
+.SolomonRGuggenheimMuseum a {
+    text-decoration: none;
+    color: #00008B;
+}
+
+/* Change the color of the link when hovering */
+.SolomonRGuggenheimMuseum a:hover {
+    color: #E70059;
+}
+
+/* Style for the museum images and their padding boxes */
+.SolomonRGuggenheimMuseum {
+    max-width: 100%;
+    padding: 15px;
+    background-color: orange;
+}
+
+.AmericanMuseumofNaturalHistory {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: "gabriella", sans-serif;
+    color: #00008B;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+/* Remove the underline from the link */
+.AmericanMuseumofNaturalHistory a {
+    text-decoration: none;
+    color: #00008B;
+}
+
+/* Change the color of the link when hovering */
+.AmericanMuseumofNaturalHistory a:hover {
+    color: #E70059;
+}
+
+/* Style for the museum images and their padding boxes */
+.AmericanMuseumofNaturalHistory {
+    max-width: 100%;
+    padding: 10px;
+    background-color: orange;
+}
+
+/* Hover effect */
+.MET:hover, .TheMuseumofModernArt:hover, .SolomonRGuggenheimMuseum:hover, .AmericanMuseumofNaturalHistory:hover {
+    transform: scale(1.05);
+    color: #E70059;
+}
+
+/* Style for the museum names */
+.museum-name {
+    padding: 7%;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: "gabriella", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.museumHeros {
+    display: flex;
+}
+
+footer {
+    font-family: "obviously-variable", sans-serif;
+    font-variation-settings: "wght" 450, "wdth" 90, "ital" 0;
+    color: #FFA500;
+    line-height: 1.4;
+    padding-left: 1em;
+}
